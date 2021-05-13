@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<link rel="stylesheet" type="text/css" href="./css/styles.css">
+		<link rel='stylesheet' type='text/css' href='http://fonts.googleapis.com/css?family=Berkshire+Swash'>
+		<link rel='stylesheet' type='text/css' href='http://fonts.googleapis.com/css?family=Seymour+One'>		
+		<title>Our Books Comment Section</title>
+	</head>
+
+	<body>
+		<div class="pagetitle"><h1>Comment on a Book in Our Collection</h1></div>
+		<div id="content">
+			<form action="processComment.php"; method=POST>
+				User Name: <input type="text" name="username">
+				<br>
+				<p>Rate the book where 5 is best.</p>
+				<input type="radio" name="rating" value="1">1
+				<input type="radio" name="rating" value="2">2
+				<input type="radio" name="rating" value="3">3
+				<input type="radio" name="rating" value="4">4
+				<input type="radio" name="rating" value="5">5
+				<br><br>
+				Comment: <br>
+				<textarea cols="40"; rows="25"; name="comment"></textarea>
+				<br>
+				<input type="submit" value="Submit">
+				<button type="reset" value="Reset">Reset</button>
+
+			</form> 
+			<form action="./index.html" method="get">
+				<input type="submit" value="Home" name="Home" id="home" />
+			</form>
+		</div>
+	</body>
+</html>

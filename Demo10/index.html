@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<link rel="stylesheet" type="text/css" href="./css/styles.css">
+		<title>CSS Blocks Revisited</title>
+	</head>
+
+	<body>
+		<p style="display:inline;">		
+			<a class="popup" href="http://localhost/htmlcss/demo10/index.html">display: block<span>
+				 Means that the element is displayed as a block, as paragraphs and headers have always 
+				 been. A block has some whitespace above and below it and tolerates no HTML elements 
+				 next to it, except when ordered otherwise (by adding a float declaration to another 
+				 element, for instance).</span>
+			</a>
+		</p >
+		<p style="display:inline;">		
+			<a class="popup" href="http://localhost/htmlcss/demo10/index.html">display: inline<span>
+				  means that the element is displayed inline, inside the current block on the same line. 
+				  Only when it's between two blocks does the element form an 'anonymous block', that 
+				  however has the smallest possible width.</span>
+			</a>
+		</p>
+		<p id="fix">
+			<a class="popup" href="http://localhost/htmlcss/demo10/index.html">Fixed Block<span>
+				A fixed position element is positioned relative to the viewport, or the browser window itself. 
+				The viewport doesn't change when the window is scrolled, so a fixed positioned element will stay 
+				right where it is when the page is scrolled, creating an effect a bit like the old school "frames" 
+				days.</span>
+			</a>
+		</p>
+		<p id="rel">
+			<a class="popup" href="http://localhost/htmlcss/demo10/index.html">Relative Block<span>
+				If you set position: relative; on an element but no other positioning attributes (top, left, bottom or right), 
+				it will have no effect on it's positioning at all, it will be exactly as it would be if you left it as 
+				position: static; But if you DO give it some other positioning attribute, say, top: 10px;, 
+				it will shift it's position 10 pixels DOWN from where it would NORMALLY be.</span>
+			</a>
+		</p>
+		<p id="abs">
+			<a class="popup" href="http://localhost/htmlcss/demo10/index.html">Absolute Block<span>
+				This is a very powerful type of positioning that allows you to literally place any page element exactly 
+				where you want it. You use the positioning attributes top, left bottom and right to set the location. 
+				Remember that these values will be relative to the next parent element with relative (or absolute) 
+				positioning. If there is no such parent, it will default all the way back up to the <html> element 
+				itself meaning it will be placed relatively to the page itself. </span>
+			</a>
+		</p>
+		
+	</body>
+</html>

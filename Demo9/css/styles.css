@@ -1,0 +1,135 @@
+body {
+		background: #FFFFD6;
+		color: #0033CC;
+		font-family: 'Trebuchet MS', Trebuchet, 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+		line-height: 1.429;
+		margin: 0;
+		padding: 0;
+		text-align: left;
+	}
+	
+header {
+		font-family: 'Nosifer', cursive;
+		text-align: center;
+		font-size: 125%;
+}
+
+footer {
+    position: absolute;
+    text-align: center;
+	font-size: 45%;
+	color: #000000;
+    bottom: 20px;
+    width: 100%;
+}
+
+h2 {font-size: 1.571em}	/* 22px */
+h3 {font-size: 1.429em}	/* 20px */
+h4 {font-size: 1.286em}	/* 18px */
+h5 {font-size: 1.143em}	/* 16px */
+h6 {font-size: 1em}	/* 14px */
+ 
+h2, h3, h4, h5, h6 {
+	font-weight: 400;
+	line-height: 1.1;
+	margin-bottom: .8em;
+}
+ 
+a {outline: 0;}
+a img {border: 0px; text-decoration: none;}
+
+a:link, a:visited {
+	color: #0033CC;
+	padding: 0 1px;
+	text-decoration: underline;
+}
+
+a:hover, a:active {
+	background-color: #996633;
+	color: #fff;
+	text-decoration: none;
+	text-shadow: 1px 1px 1px #333;
+}
+ 
+p {
+	margin-left:25px;
+	font-size: 115%;
+}
+strong, b {font-weight: bold;}
+em, i {font-style: italic;}
+
+nav {
+  background-color:#E6E6E6;
+  height:40px;
+}
+ 
+nav ul {
+  font-family: Arial, Verdana;
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+ 
+nav ul li {
+  display: block;
+  position: relative;
+  float: left;
+ 
+}
+ 
+nav li ul {
+  display: none;
+}
+ 
+nav ul li a {
+  display: block;
+  text-decoration: none;
+  padding: 7px 15px 3px 15px;
+  background: #E6E6E6;
+  color: #ffffff; 
+  margin-left: 40px;
+  white-space: nowrap;
+  height:30px; /* Width and height of top-level nav items */
+  width:90px;
+  text-align:center;
+}
+
+nav a:link, a:visited {
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  background: #C1C1D6;
+}
+ 
+nav li:hover ul {
+  display: block;
+  position: absolute;
+  height:30px;
+}
+ 
+nav li:hover li {
+  float: none;
+  font-size: 11px;
+ 
+}
+ 
+nav li:hover a {
+  background: #C1C1D6;
+  height:30px; /* Height of lower-level nav items is shorter than main level */
+}
+ 
+nav li:hover li a:hover {
+  background: #95A9B1;
+}
+ 
+nav ul li ul li a {
+    text-align:left; /* Top-level items are centered, but nested list items are left-aligned */
+}
+
+video {
+	width: 320px;
+	height: 240px;
+	margin-left: 50px;
+}

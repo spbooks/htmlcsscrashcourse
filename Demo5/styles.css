@@ -1,0 +1,20 @@
+body {
+    background: #FFFFD6;
+	}
+	
+h1 , h2 {
+	background-color:#CCC;    
+	border: 1px solid;    
+	color:#39F;    
+	text-align: center;   
+       }	
+ 
+h2 {
+	color:#FF0000;
+   }
+
+p {    
+	color:#39F;    
+	text-indent: 50px; 
+	border:1px dashed;	
+  }

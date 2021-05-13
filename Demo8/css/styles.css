@@ -1,0 +1,55 @@
+img.bookimage {
+	width:125px;
+	height:175px;
+}
+.pagetitle {
+	color:red;
+	font-family: 'Seymour One', sans-serif;
+}
+
+.footer {
+	color:green;
+}
+
+#content {
+	color:#CC9900;
+}
+
+#booktable {
+	border: 1px solid black;
+}
+
+p {
+	font-family: 'Berkshire Swash', cursive;
+}
+
+td.booktitle {
+  font-family:'Lobster Two', Helvetica, sans-serif;
+  font-size:25px;
+  color: #2b2b2b;
+  text-shadow: 1px 1px 0px #ededed, 4px 4px 0px rgba(0,0,0,0.15);
+}
+
+td {
+	border: 1px solid black;
+	padding:10px; 
+	background-color:#b0c4de;;
+}
+
+th {
+	border: 1px solid black;
+	padding:10px; 
+	background-color:white;;
+}
+
+a:link {
+	color:#FF0000;
+	}
+
+a:hover {
+	color:#FF00FF;
+	} 
+
+body {
+	background-color:#F1F1E1;
+}

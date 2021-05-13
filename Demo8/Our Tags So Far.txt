@@ -1,0 +1,34 @@
+Our Tags So Far
+
+The paragraph tag <p> 
+The emphasis tag <em>
+The strong tag <strong>
+The underline tag <u>
+The line break tag <br>
+The header tags <h1>…<h6>
+The unordered list tag <ul>
+The ordered list tag <ol>
+The list item tag <li>
+The anchor tag <a>
+The image tag <img>
+The <table> tag is used to create a table
+The <tr> tag is used to define a row within a table
+The <td> tag is used to define a cell within a row
+The <th> tag is used to define a header cell within a table
+The <form> tag defines a form.
+<span> is an in-line tag acting on a small collection of HTML.
+<div> is a block tag acting on the enclosed HTML.
+The <abbr> tag  is used to modify an abbreviation.
+The <blockquote> and <q> tags are used for quotations.
+The <code> tag is used to define the appearance of programming code.
+The <cite> tag is used to define a citation.
+The <pre> tag is used to display preformatted text.
+The <dl> tag defines a term
+The <dd> tag defines the definition
+The HTML tags <ins> and <del> are used to display editorial insertions and deletions respectively. 
+The HTML tag <dfn> is used to denote a definition 
+
+
+
+
+

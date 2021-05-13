@@ -1,0 +1,38 @@
+body {
+    background: #FFFFE6;
+	}
+	
+h1 , h2 {
+	font-family:Impact,Verdana,Serif;
+	font-weight:300;
+	background-color:#CCC;    
+	border: 3px solid;    
+	color:#003366;    
+	text-align:center;   
+       }	
+ 
+h2 {
+	color:#FF0000;
+   }
+
+p {    
+	font-family:"Trebuchet MS",Georgia,Serif;
+	font-weight:100;
+	font-size:large;
+	line-height:150%;
+	letter-spacing:5px;
+	word-spacing:10px;
+	text-transform:uppercase;
+	margin:30px;
+	color:#003366;    
+	text-indent: 0; 
+	text-align:none;
+	border:0;	
+  }
+  
+img {
+	display:block;
+	height:150px;
+	width:120px;
+	margin-left:45%;
+    }

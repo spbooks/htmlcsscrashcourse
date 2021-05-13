@@ -1,0 +1,21 @@
+Our Tags So Far
+
+The paragraph tag <p> 
+The emphasis tag <em>
+The strong tag <strong>
+The underline tag <u>
+The line break tag <br>
+The header tags <h1>…<h6>
+The unordered list tag <ul>
+The ordered list tag <ol>
+The list item tag <li>
+The anchor tag <a>
+The image tag <img>
+The <table> tag is used to create a table
+The <tr> tag is used to define a row within a table
+The <td> tag is used to define a cell within a row
+The <th> tag is used to define a header cell within a table
+The <form> tag defines a form.
+
+
+
